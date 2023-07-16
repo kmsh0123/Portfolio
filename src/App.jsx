@@ -1,12 +1,15 @@
 import React from 'react'
 import './App.css'
+import Hero from './components/Hero'
+import About from './components/About'
 
 
 const App = () => {
   return (
-    <>
-    <div className='text-xl underline'>App</div>
-    </>
+    <div className=''>
+      <Hero/>
+      <About/>
+    </div>
   )
 }
 
