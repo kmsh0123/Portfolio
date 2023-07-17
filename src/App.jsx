@@ -1,13 +1,13 @@
-import React from 'react'
-import './App.css'
-
+import React from "react";
+import "./App.css";
+import Blog from "./pages/Blog";
 
 const App = () => {
   return (
-    <>
-    <div className='text-xl underline'>App</div>
-    </>
-  )
-}
+    <div>
+      <Blog/>
+    </div>
+  );
+};
 
-export default App
+export default App;
