@@ -6,7 +6,7 @@ const Blog = () => {
   return (
     <div>
       <div className=" bg-[#f5f5f5]">
-        <div className=" flex flex-col justify-center items-center pt-[3rem] md:pt-[4rem]">
+        <div className=" flex flex-col justify-center items-center pt-[3rem]">
           <h2 className=" text-[3rem] mb-[0.5rem] font-bold">BLOG</h2>
           <p className=" text-center px-5 text-[#4e4e4e] mb-[1rem]">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
