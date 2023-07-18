@@ -21,7 +21,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
 
-    "swiper": "^10.0.4"
+    "swiper": "^10.0.4",
 
     "react-simple-chatbot": "^0.6.1",
     "typed.js": "^2.0.16"
