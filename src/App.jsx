@@ -1,11 +1,12 @@
 import React from 'react'
 import './App.css'
+import Work from './pages/Work'
 
 
 const App = () => {
   return (
     <>
-    <div className='text-xl underline'>App</div>
+      <Work/>
     </>
   )
 }

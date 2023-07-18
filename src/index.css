@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+	background-color: theme('colors.white');
+	border-radius: theme('borderRadius.sm');
+	/* padding: theme('spacing.4'); */
+	box-shadow: theme('boxShadow.lg');
+  }
+
+  .card img{
+	transition: all 1s;
+		transition-timing-function: ease-in-out;
+  }
+.card:hover img{
+		transform: scale(1.3);
+}
+
+
