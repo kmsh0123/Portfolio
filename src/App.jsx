@@ -1,11 +1,14 @@
 import React from 'react'
 import './App.css'
+import Navbar from './components/Navbar'
+import Paths from './Routes/Paths'
 
 
 const App = () => {
   return (
     <>
-    <div className='text-xl underline'>App</div>
+    <Navbar/>
+    <Paths/>
     </>
   )
 }

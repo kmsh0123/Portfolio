@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* styles.css */
+
+/* Link styles */
+.a{
+    text-decoration: none;
+    position: relative; /* Required for positioning pseudo-element */
+  }
+  
+  /* Underline using ::before pseudo-element */
+.a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; /* Position the underline just below the link text */
+    left: 0;
+    width: 0; /* Initially set the width to 0, so it's not visible */
+    height: 2px;
+    background-color: #fff; /* Set the underline color */
+    transition: width 0.3s; /* Add a transition for smooth animation of the underline width */
+  }
+  
+  /* Underline effect on hover */
+.a:hover::after {
+    width: 80%; /* Change the width to 100% on hover to display the full underline */
+  }
+
+.a.active::after{
+    content: '';
+    position: absolute;
+    bottom: -5px; /* Position the underline just below the link text */
+    left: 0;
+    width: 80%; /* Initially set the width to 0, so it's not visible */
+    height: 2px;
+    background-color: #fff; /* Set the underline color */
+    transition: width 0.3s; /* Set the underline color */
+
+}
+  
