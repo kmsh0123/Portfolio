@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
+    "@mantine/carousel": "^6.0.17",
     "@mantine/core": "^6.0.16",
     "@mantine/hooks": "^6.0.16",
+    "embla-carousel-react": "^8.0.0-rc11",
     "flowbite": "^1.7.0",
     "flowbite-react": "^0.4.11",
     "framer-motion": "^10.12.21",
