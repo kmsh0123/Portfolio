@@ -146,7 +146,7 @@ const Work = () => {
           </div>
         </div>
       </section>
-      <section className="h-screen md:h-[800px] mb-10 lg:h-screen relative p-[1rem] md:p-[1rem] lg:p-[8rem] bg-[url('https://bootstrapmade.com/demo/templates/DevFolio/assets/img/overlay-bg.jpg')] bg-cover bg-no-repeat bg-center flex justify-center items-center">
+      <section className="h-screen md:h-[800px] lg:h-screen relative p-[1rem] md:p-[1rem] lg:p-[8rem] bg-[url('https://bootstrapmade.com/demo/templates/DevFolio/assets/img/overlay-bg.jpg')] bg-cover bg-no-repeat bg-center flex justify-center items-center">
         <div className=" absolute top-0 left-0 bg-[#0078ff] p-0 h-[100%] w-[100%] opacity-[0.7]"></div>
       <Swiper spaceBetween={30}
         centeredSlides={true}
