@@ -14,9 +14,9 @@ const Navbar = () => {
   ]
   return (
        <nav className={`${open ? "bg-[#040404]" : "bg-[#464646] h-screen"}`}>
-         <div className="container px-1 py-2 lg:p-4 lg:pt-5 lg:mx-auto flex flex-col lg:flex-row lg:items-center lg:justify-between font-bold">
+         <div className="container px-1 py-2 lg:p-4 lg:pt-5 md:mx-auto flex flex-col lg:flex-row lg:items-center lg:justify-between font-bold">
            <div className="flex items-center justify-between px-2 lg:px-0">
-           <h1 className={`${open ? "text-white" : "text-[#5f5f5f]"} ml-0 md:ml-14 lg:ml-14 text-[28px]`}>DevFolio</h1>
+           <h1 className={`${open ? "text-white" : "text-[#5f5f5f]"} ml-0 lg:ml-14 text-[28px]`}>DevFolio</h1>
             <div onClick={()=>setOpen(!open)} className="lg:hidden text-white">
             {
               open ? <MdMenu className='text-3xl'/> : <MdClose className='text-3xl'/>
