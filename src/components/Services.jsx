@@ -4,35 +4,9 @@ import Test from "./Test";
 import { motion } from "framer-motion";
 
 const Services = () => {
-  const container = {
-    show: {
-      transition: {
-        staggerChildren: 0.35,
-      },
-    },
-  };
-
-  const item = {
-    hidden: {
-      opacity: 0,
-      y: 200,
-    },
-    show: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        ease: [0.6, 0.1, -0.5, 0.95],
-        duration: 1,
-      },
-    },
-    exit: {
-      opacity: 0,
-      y: -200,
-      transition: {
-        ease: "easeInOut",
-        duration: 0.8,
-      },
-    },
+  const frMotion = {
+    hidden: { scale: 0 },
+    visible: { scale: 1 },
   };
 
   return (
@@ -50,16 +24,13 @@ const Services = () => {
         </div>
 
         {/* Service cards */}
-        <motion.div
-          variants={container}
-          initial="hidden"
-          animate="show"
-          exit="exit"
-          className="md:grid md:grid-cols-3 md:grid-rows-2 px-5 lg:px-14"
-        >
+        <div className="md:grid md:grid-cols-3 md:grid-rows-2 px-5 lg:px-14">
           {/* Web design */}
-          <div
-            variants={item}
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={frMotion}
+            transition={{ duration: 1 }}
             className="w-[95%] lg:w-[93%] fade mb-10 rounded-lg mx-auto shadow-lg bg-white p-2"
           >
             <div className="text-center">
@@ -77,11 +48,14 @@ const Services = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Web developmet */}
-          <div
-            variants={item}
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={frMotion}
+            transition={{ duration: 1 }}
             className="w-[95%] lg:w-[93%] fade rounded-lg mx-auto shadow-lg mb-10 bg-white p-2"
           >
             <div className="text-center">
@@ -100,11 +74,14 @@ const Services = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Photography */}
-          <div
-            variants={item}
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={frMotion}
+            transition={{ duration: 1 }}
             className="w-[95%] lg:w-[93%] fade rounded-lg mx-auto shadow-lg mb-10 bg-white p-2"
           >
             <div className="text-center">
@@ -123,11 +100,14 @@ const Services = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Responsive Design */}
-          <div
-            variants={item}
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={frMotion}
+            transition={{ duration: 1 }}
             className="w-[95%] lg:w-[93%] fade rounded-lg mx-auto shadow-lg mb-10 bg-white p-2"
           >
             <div className="text-center">
@@ -138,7 +118,7 @@ const Services = () => {
               </div>
 
               <div className="">
-                <h1 className="text-2xl mb-3">WEB DESIGN</h1>
+                <h1 className="text-2xl mb-3">RESPONSIVE DESIGN</h1>
                 <p className="w-[90%] mb-3 mx-auto">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
                   hic commodi laboriosam fugiat magnam officia consequuntur,
@@ -146,11 +126,14 @@ const Services = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Graphic design */}
-          <div
-            variants={item}
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={frMotion}
+            transition={{ duration: 1 }}
             className="w-[95%] lg:w-[93%] fade rounded-lg mx-auto shadow-lg mb-10 bg-white p-2"
           >
             <div className="text-center">
@@ -169,11 +152,14 @@ const Services = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Marketing service */}
-          <div
-            variants={item}
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={frMotion}
+            transition={{ duration: 1 }}
             className="w-[95%] lg:w-[93%] fade rounded-lg mx-auto shadow-lg mb-10 bg-white p-2"
           >
             <div className="text-center">
@@ -192,8 +178,8 @@ const Services = () => {
                 </p>
               </div>
             </div>
-          </div>
-        </motion.div>
+          </motion.div>
+        </div>
       </div>
       {/* Tests */}
       <Test />
