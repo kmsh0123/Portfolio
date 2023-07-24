@@ -19,12 +19,19 @@
     "flowbite-react": "^0.4.11",
     "framer-motion": "^10.12.21",
     "react": "^18.2.0",
+    "react-chatbot-kit": "^2.1.2",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.14.1",
     "react-simple-chatbot": "^0.6.1",
     "react-toastify": "^9.1.3",
     "styled-components": "^6.0.4"
+
+    "swiper": "^10.0.4",
+
+    "react-simple-chatbot": "^0.6.1",
+    "typed.js": "^2.0.16"
+
   },
   "devDependencies": {
     "@types/react": "^18.2.14",
