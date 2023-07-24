@@ -5,6 +5,7 @@ import {RiGpsFill} from "react-icons/ri";
 import {AiOutlineMobile,AiOutlineMail} from "react-icons/ai"
 import {FaFacebook,FaInstagram,FaTwitter,FaLinkedinIn} from "react-icons/fa"
 import emailjs from '@emailjs/browser';
+import Footer from './Footer';
 
 
 const Contact = () => {
@@ -24,9 +25,9 @@ const Contact = () => {
       });
   };
   return (
-    <>
+    <div >
       <div className='bg-[#0078ff] h-screen relative z-10 mt-16 overflow-auto md:overflow-hidden'>
-      <div className='absolute z-[-1] opacity-50 bg-image background-container w-full h-full pt-16 mb-3rem'/>
+      <div className='absolute z-[-1] opacity-50 bg-image background-container w-full h-[0%] pt-16 mb-3rem'/>
         <div className='absolute top-16 w-full '>
           <div className=' flex justify-between container mx-auto pt-16'>
             <div className="bg-white m-2 md:mx-[1%] lg:mx-[4.25rem] w-full flex flex-col md:flex-row justify-between">
@@ -84,7 +85,7 @@ const Contact = () => {
           </div>
         </div>
       </div>  
-    </>
+    </div>
   )
 }
 
