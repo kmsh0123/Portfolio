@@ -18,8 +18,8 @@ const App = () => {
     <Chatbot/>
       <Hero/>
       <About/>
-     <Blog/>
       <Services/>
+     <Blog/>
       <Testimony/>
       <Work/>
     </>
