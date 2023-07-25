@@ -2,16 +2,16 @@ import { Avatar } from "@mantine/core";
 import React from "react";
 import { BsClock } from "react-icons/bs";
 
-const Blog = () => {
+const Blog = ({themeColor}) => {
   return (
-    <div>
+    <div className={themeColor}>
       <div className=" bg-[#f5f5f5]">
         <div className=" flex flex-col justify-center items-center pt-[3rem]">
           <h2 className=" text-[3rem] mb-[0.5rem] font-bold">BLOG</h2>
           <p className=" text-center px-5 text-[#4e4e4e] mb-[1rem]">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           </p>
-          <hr className=" bg-[#0078ff] w-[40px] h-[5px] border-none" />
+          <hr className=" bg-portfolio-fill w-[40px] h-[5px] border-none" />
         </div>
         <div className=" flex flex-col md:flex-row justify-center md:gap-6 px-3 md:px-[52px] lg:px-[117px] items-center pb-[4rem] md:pb-[6rem] pt-[4rem]">
           <div className=" shadow-lg shadow-gray-300 rounded-[5px] border-[1px] border-[rgba(0,0,0,0.175)] relative">
@@ -21,14 +21,14 @@ const Blog = () => {
             />
             <div className=" bg-white px-[1rem] pt-[1.3rem] pb-[1rem]">
               <span className="  mt-[-35px] flex justify-center">
-                <button className=" rounded-[4px] bg-[#0078ff]">
+                <button className=" rounded-[4px] bg-portfolio-fill">
                   <h6 className=" font-[500] text-white px-[15px] py-[6px] text-[0.7rem]">
                     TRAVEL
                   </h6>
                 </button>
               </span>
               <span>
-                <h3 className=" hover:text-[#0078ff] transition duration-[0.5s] font-[500] py-[0.5rem] leading-6  lg:leading-0 text-[1.3rem]">
+                <h3 className=" hover:text-portfolio-base transition duration-[0.5s] font-[500] py-[0.5rem] leading-6  lg:leading-0 text-[1.3rem]">
                   See more ideas about Travel
                 </h3>
               </span>
@@ -49,7 +49,7 @@ const Blog = () => {
                     radius="xl"
                   />
                 </span>
-                <span className=" hover:text-[#0078ff] transition duration-[0.5s]">
+                <span className=" hover:text-portfolio-base transition duration-[0.5s]">
                   <p>Morgan Freeman</p>
                 </span>
               </div>
@@ -71,14 +71,14 @@ const Blog = () => {
             />
             <div className=" bg-white px-[0.9rem] py-[1rem]">
               <span className="  mt-[-32px] flex justify-center">
-                <button className=" rounded-[4px] bg-[#0078ff]">
+                <button className=" rounded-[4px] bg-portfolio-fill">
                   <h6 className=" font-[500] text-white px-[15px] py-[6px] text-[0.7rem]">
                     WEB DESIGN
                   </h6>
                 </button>
               </span>
               <span>
-                <h3 className=" hover:text-[#0078ff] transition duration-[0.5s] font-[500] py-[0.5rem] leading-6 lg:leading-0 text-[1.3rem]">
+                <h3 className=" hover:text-portfolio-base transition duration-[0.5s] font-[500] py-[0.5rem] leading-6 lg:leading-0 text-[1.3rem]">
                   See more ideas about Travel
                 </h3>
               </span>
@@ -99,7 +99,7 @@ const Blog = () => {
                     radius="xl"
                   />
                 </span>
-                <span className=" hover:text-[#0078ff] transition duration-[0.5s]">
+                <span className=" hover:text-portfolio-base transition duration-[0.5s]">
                   <p>Morgan Freeman</p>
                 </span>
               </div>
@@ -121,14 +121,14 @@ const Blog = () => {
             />
             <div className=" bg-white px-[0.9rem] py-[1rem]">
               <span className="  mt-[-32px] flex justify-center">
-                <button className=" rounded-[4px] bg-[#0078ff]">
+                <button className=" rounded-[4px] bg-portfolio-fill">
                   <h6 className=" font-[500] text-white px-[15px] py-[6px] text-[0.7rem]">
                     WEB DESIGN
                   </h6>
                 </button>
               </span>
               <span>
-                <h3 className=" hover:text-[#0078ff] transition duration-[0.5s] font-[500] py-[0.5rem] leading-6 lg:leading-0 text-[1.3rem]">
+                <h3 className=" hover:text-portfolio-base transition duration-[0.5s] font-[500] py-[0.5rem] leading-6 lg:leading-0 text-[1.3rem]">
                   See more ideas about Travel
                 </h3>
               </span>
@@ -149,7 +149,7 @@ const Blog = () => {
                     radius="xl"
                   />
                 </span>
-                <span className=" hover:text-[#0078ff] transition duration-[0.5s]">
+                <span className=" hover:text-portfolio-base transition duration-[0.5s]">
                   <p>Morgan Freeman</p>
                 </span>
               </div>
