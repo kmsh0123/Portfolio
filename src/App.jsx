@@ -7,6 +7,7 @@ import Work from './pages/Work'
 import Hero from './components/Hero'
 import About from './components/About'
 import Blog from "./pages/Blog";
+import Contact from './Pages/Contact'
 
 const App = () => {
   return (
@@ -14,12 +15,11 @@ const App = () => {
     <Navbar/>
     <Paths/>
     <Chatbot/>
-    <div className=''>
       <Hero/>
       <About/>
      <Blog/>
     <Work/>
-    </div>
+    <Contact/>
     </>
   )
 }
