@@ -20,9 +20,15 @@ export default {
           indicator:"var(--fill-color-indicator)",
         }
       },
-      gradientColorStops:{
+      borderColor:{
         portfolio:{
           hue:"var(--fill-color)",
+        }
+      },
+      boxShadowColor:{
+        portfolio:{
+          fill:"var(--text-color)",
+
         }
       }
     },

@@ -35,7 +35,7 @@ const Services = () => {
           >
             <div className="text-center">
               <div className="flex items-center justify-center mt-5 mb-5">
-                <span className="ico-circle ">
+                <span className="ico-circle hover:bg-portfolio-fill text-portfolio-base">
                   <i className="fa fa-briefcase text-black"></i>
                 </span>
               </div>
@@ -60,7 +60,7 @@ const Services = () => {
           >
             <div className="text-center">
               <div className="flex items-center justify-center mt-5 mb-5">
-                <span className="ico-circle">
+                <span className="ico-circle hover:bg-portfolio-fill text-portfolio-base">
                   <i className="fa fa-rectangle-list text-black"></i>
                 </span>
               </div>
@@ -86,7 +86,7 @@ const Services = () => {
           >
             <div className="text-center">
               <div className="flex items-center justify-center mt-5 mb-5">
-                <span className="ico-circle">
+                <span className="ico-circle hover:bg-portfolio-fill text-portfolio-base">
                   <i className="fa fa-light fa-chart-simple text-black"></i>
                 </span>
               </div>
@@ -112,7 +112,7 @@ const Services = () => {
           >
             <div className="text-center">
               <div className="flex items-center justify-center mt-5 mb-5">
-                <span className="ico-circle">
+                <span className="ico-circle hover:bg-portfolio-fill text-portfolio-base">
                   <i className="fa fa-binoculars text-black"></i>
                 </span>
               </div>
@@ -138,7 +138,7 @@ const Services = () => {
           >
             <div className="text-center">
               <div className="flex items-center justify-center mt-5 mb-5">
-                <span className="ico-circle">
+                <span className="ico-circle hover:bg-portfolio-fill text-portfolio-base">
                   <i className="fa fa-sun text-black"></i>{" "}
                 </span>
               </div>
@@ -164,7 +164,7 @@ const Services = () => {
           >
             <div className="text-center">
               <div className="flex items-center justify-center mt-5 mb-5">
-                <span className="ico-circle">
+                <span className="ico-circle hover:bg-portfolio-fill text-portfolio-base">
                   <i className="fa fa-calendar-days text-black"></i>
                 </span>
               </div>

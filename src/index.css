@@ -4,34 +4,34 @@
 
 @layer base{
 	:root {
-		--text-color:rgb(220 38 38);
-		--fill-color:rgb(248 113 113);
-		--fill-color-indicator:rgb(220 38 38);
+		/* --text-color:rgb(220 38 38);
+		--fill-color:rgb(220 38 38);
+		--fill-color-indicator:rgb(220 38 38); */
 	}
 	.theme-default{
 		--text-color:#0078ff;
-		--fill-color:rgb(248 113 113);
+		--fill-color:#0078ff;
 		--fill-color-indicator:rgb(220 38 38);
 	}
 	.theme-flat{
 		--text-color:#1da1f5;
-		/* --fill-color:rgb(248 113 113);
-		--fill-color-indicator:rgb(220 38 38); */
+		--fill-color:#1da1f5;
+		/* --fill-color-indicator:rgb(220 38 38); */
 	}
 	.theme-sunset{
 		--text-color:#f53b57;
-		/* --fill-color:rgb(248 113 113);
-		--fill-color-indicator:rgb(220 38 38); */
+		--fill-color:#f53b57;
+		/* --fill-color-indicator:rgb(220 38 38);  */
 	}
 	.theme-subtle{
 		--text-color:#6eabc2;
-		/* --fill-color:rgb(248 113 113);
-		--fill-color-indicator:rgb(220 38 38); */
+		--fill-color:#6eabc2;
+		/* --fill-color-indicator:rgb(220 38 38);  */
 	}
 	.theme-seafoam{
 		--text-color:#06794f;
-		/* --fill-color:rgb(248 113 113);
-		--fill-color-indicator:rgb(220 38 38); */
+		 --fill-color:#06794f;
+		/* --fill-color-indicator:rgb(220 38 38);  */
 	}
 }
 .card {
@@ -50,7 +50,7 @@
 }
 
 .setting{
-	z-index: 100;
+	/* z-index: 100; */
 	animation: first 1.5s infinite linear;
 }
 @keyframes first{
@@ -62,9 +62,9 @@
 	}
 }
 
-.bar{
+/* .bar{
 	z-index: 7;
-}
+} */
 
 
 
