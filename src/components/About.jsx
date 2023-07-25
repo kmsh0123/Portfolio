@@ -16,10 +16,10 @@ const About = () => {
                             <span className=' text-lg font-semibold me-2'>Profile: </span><span className=' text-slate-500 md:text-sm lg:text-base'>Developer</span>
                         </div>
                         <div className=' flex flex-wrap items-center mb-4'>
-                            <span className=' text-lg font-semibold me-2'>Email: </span><span className=' text-slate-500 md:text-sm lg:text-base'>komauk1998@gmail.com</span>
+                            <span className=' text-lg font-semibold me-2'>Email: </span><span className=' text-slate-500 md:text-sm lg:text-base'>mgmauktheinkha@gmail.com</span>
                         </div>
                         <div className=' flex flex-wrap items-center'>
-                            <span className=' text-lg font-semibold me-2'>Phone: </span><span className=' text-slate-500 md:text-sm lg:text-base'>09111222333</span>
+                            <span className=' text-lg font-semibold me-2'>Phone: </span><span className=' text-slate-500 md:text-sm lg:text-base'>09962255530</span>
                         </div>
                     </div>
                 </div>

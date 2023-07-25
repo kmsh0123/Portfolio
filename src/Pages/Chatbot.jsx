@@ -78,16 +78,19 @@ const config = {
 const Chatbot = () => {
 
   return (
-    <div>
-            <ThemeProvider theme={theme}>
-                <ChatBot
-                    headerTitle="K.I.BOT"
-                    steps={steps}
-                    {...config}
- 
-                />
-            </ThemeProvider>
-        </div>
+
+    <ThemeProvider theme={theme}>
+        <ChatBot
+            headerTitle="K.I.BOT"
+            steps={steps}
+            {...config}
+            floatingStyle={{left : '30px',transformOrigin : 'left bottom'}}
+            contentStyle={{backgroundColor : 'white',marginTop : '0px'}}
+            inputStyle={{backgroundColor : '#d8deed',color :"#000000",opacity : '1'}}
+            bubbleStyle={{wordWrap : 'break-word'}}
+        />
+    </ThemeProvider>
+
   )
 }
 

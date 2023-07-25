@@ -8,6 +8,9 @@ import Work from "./Pages/Work";
 import About from './components/About'
 import Blog from "./Pages/Blog";
 import Contact from './Pages/Contact'
+import {AiTwotoneSetting } from "react-icons/ai"
+import Testimony from './components/Testimony'
+import Footer from './Pages/Footer'
 
 const App = () => {
   const [toggle, setToggle] = useState(true);
@@ -93,12 +96,11 @@ const App = () => {
       </div>
       <About theme={themeColor}/>
       <Services/>
-     <Work/>
-     <Testimony/>
      <Blog/>
+     <Testimony/>
     <Work/>
-    <Contact/>
-      <Testimony/>
+    <Contact theme={themeColor}/>
+    <Footer/>
     </div>
   )
 }
