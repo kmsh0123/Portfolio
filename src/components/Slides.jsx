@@ -1,5 +1,5 @@
-import React from "react";
 import { Carousel } from "@mantine/carousel";
+import React from "react";
 
 const Slides = () => {
   return (

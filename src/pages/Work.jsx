@@ -9,7 +9,7 @@ import {BsPlusCircle} from "react-icons/bs";
 const Work = () => {
   return (
     <div>
-      <section className=" flex flex-col justify-center items-center mb-16 sm:p-5">
+         <section className=" flex flex-col justify-center items-center mb-16 sm:p-5">
         <h1 className=" text-3xl lg:text-5xl font-bold uppercase mb-3">Portfolio</h1>
         <p className=" text-[#4e4e4e] mb-4 text-center">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -146,43 +146,7 @@ const Work = () => {
           </div>
         </div>
       </section>
-      <section className="h-screen md:h-[800px] lg:h-screen relative p-[1rem] md:p-[1rem] lg:p-[8rem] bg-[url('https://bootstrapmade.com/demo/templates/DevFolio/assets/img/overlay-bg.jpg')] bg-cover bg-no-repeat bg-center flex justify-center items-center">
-        <div className=" absolute top-0 left-0 bg-[#0078ff] p-0 h-[100%] w-[100%] opacity-[0.7]"></div>
-      <Swiper spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 3000,
-          disableOnInteraction: false,
-        }}
-        // pagination={{
-        //   clickable: true,
-        // }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper text-white">
-        <SwiperSlide className=" ">
-        <div className=" flex flex-col justify-center items-center gap-5">
-          
-            <img src=" https://bootstrapmade.com/demo/templates/DevFolio/assets/img/testimonial-2.jpg" className=" rounded-full" alt="" />
-            <h1 className=" uppercase text-[1.4rem] font-semibold tracking-wide">Xavi alonso</h1>
-            <p className=" w-[350px] md:w-[600px] lg:w-[600px] text-xl text-center font-light leading-8">
-                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
-                      </p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="">
-          <div className=" flex flex-col justify-center items-center gap-5">
-            <img src="	https://bootstrapmade.com/demo/templates/DevFolio/assets/img/testimonial-4.jpg" alt="" className=" rounded-full" />
-            <h1 className=" uppercase text-[1.4rem] font-semibold tracking-wide">Marta socrate</h1>
-            <p className=" w-[350px] md:w-[600px] lg:w-[600px] text-center text-xl font-light leading-8">
-                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
-                      </p>
-          </div>
-        </SwiperSlide>
-      </Swiper>
-      </section>
+
     </div>
   );
 };
