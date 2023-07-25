@@ -74,7 +74,7 @@ const App = () => {
                   Sunset
                 </div>
                 <button
-                  className="py-4 w-[100%] px-5 text-sm font-semibold bg-gradient-to-r from-[#6eabc2] to-[#506c6a] rounded-md mb-3 text-white cursor-pointer "
+                  className="py-4 w-[100%] px-5 text-start text-sm font-semibold bg-gradient-to-r from-[#6eabc2] to-[#506c6a] rounded-md mb-3 text-white cursor-pointer "
                   onClick={() => setThemeColor("theme-subtle")}
                 >
                   Subtle

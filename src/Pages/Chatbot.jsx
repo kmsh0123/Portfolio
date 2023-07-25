@@ -4,15 +4,11 @@ import { ThemeProvider } from 'styled-components';
 
 const steps = [
     {
-        id: '0',
+        id: '1',
         message: 'Hello!',
-        trigger: '1',
+        trigger: '2',
     }, 
     {
-        id: '1',
-        message: 'Nice to meet you bro!',
-        trigger: '2'
-    }, {
         id: '2',
         message: "What is your name?",
         trigger: '3',
