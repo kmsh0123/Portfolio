@@ -1,5 +1,7 @@
 import React from 'react'
 import './App.css'
+import Services from './components/Services'
+import Testimony from './components/Testimony'
 import Navbar from './components/Navbar'
 import Paths from './Routes/Paths'
 import Chatbot from './Pages/Chatbot'
@@ -17,9 +19,11 @@ const App = () => {
     <Chatbot/>
       <Hero/>
       <About/>
+      <Services/>
      <Blog/>
     <Work/>
     <Contact/>
+      <Testimony/>
     </>
   )
 }
