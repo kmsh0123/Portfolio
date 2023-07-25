@@ -26,7 +26,7 @@ const Contact = () => {
   };
   return (
     <div >
-      <div className='bg-[#0078ff] h-screen relative z-10 mt-16 overflow-auto md:overflow-hidden'>
+      <div className='bg-portfolio-fill h-screen relative z-10 mt-16 overflow-auto md:overflow-hidden'>
       <div className='absolute z-[-1] opacity-50 bg-image background-container w-full h-[0%] pt-16 mb-3rem'/>
         <div className='absolute top-16 w-full '>
           <div className=' flex justify-between container mx-auto pt-16'>

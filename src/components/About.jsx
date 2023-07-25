@@ -29,25 +29,25 @@ const About = () => {
                     <div className=' mt-6'>
                         <p className=' uppercase text-gray-800 text-base mb-2'>html 85%</p>
                         <div className=' bg-[#CDE1F8] h-3'>
-                            <div className=' w-5/6 bg-[#0078FF] h-full'></div>
+                            <div className=' w-5/6 bg-portfolio-fill h-full'></div>
                         </div>
                     </div>
                     <div className=' my-5'>
                         <p className=' uppercase text-gray-800 text-base mb-2'>css 85%</p>
                         <div className=' bg-[#CDE1F8] h-3'>
-                            <div className=' w-5/6 bg-[#0078FF] h-full'></div>
+                            <div className=' w-5/6 bg-portfolio-fill h-full'></div>
                         </div>
                     </div>
                     <div>
                         <p className=' uppercase text-gray-800 text-base mb-2'>js 85%</p>
                         <div className=' bg-[#CDE1F8] h-3'>
-                            <div className=' w-5/6 bg-[#0078FF] h-full'></div>
+                            <div className=' w-5/6 bg-portfolio-fill h-full'></div>
                         </div>
                     </div>
                     <div className=' mt-6'>
                         <p className=' uppercase text-gray-800 text-base mb-2'>react 85%</p>
                         <div className=' bg-[#CDE1F8] h-3'>
-                            <div className=' w-5/6 bg-[#0078FF] h-full'></div>
+                            <div className=' w-5/6 bg-portfolio-fill h-full'></div>
                         </div>
                     </div>
                 </div>  
