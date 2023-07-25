@@ -19,7 +19,7 @@ const Services = () => {
             <p className="text-gray-500 mb-3 px-5">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <div className="w-10 h-1 bg-blue-600 mx-auto"></div>
+            <div className="w-10 h-1 bg-portfolio-fill mx-auto"></div>
           </div>
         </div>
 
@@ -35,7 +35,7 @@ const Services = () => {
           >
             <div className="text-center">
               <div className="flex items-center justify-center mt-5 mb-5">
-                <span className="ico-circle">
+                <span className="ico-circle ">
                   <i className="fa fa-briefcase text-black"></i>
                 </span>
               </div>
@@ -139,7 +139,7 @@ const Services = () => {
             <div className="text-center">
               <div className="flex items-center justify-center mt-5 mb-5">
                 <span className="ico-circle">
-                  <i class="fa fa-sun text-black"></i>{" "}
+                  <i className="fa fa-sun text-black"></i>{" "}
                 </span>
               </div>
 

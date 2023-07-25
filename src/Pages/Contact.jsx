@@ -25,7 +25,6 @@ const Contact = () => {
       });
   };
   return (
-    <div >
       <div className='bg-[#0078ff] h-screen relative z-10 mt-16 overflow-auto md:overflow-hidden'>
       <div className='absolute z-[-1] opacity-[0.3] bg-image background-container w-full h-full pt-16 mb-3rem'/>
         <div className='absolute top-16 w-full '>
@@ -83,9 +82,8 @@ const Contact = () => {
             </form>
             </div>
           </div>
-        </div>
-      </div>  
-    </div>
+          </div>
+          </div>
   )
 }
 

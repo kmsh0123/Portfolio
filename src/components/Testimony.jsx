@@ -5,7 +5,7 @@ import Slides from "./Slides";
 const Testimony = () => {
   return (
     <div className="mountain bg-image py-32 relative lg:h-screen lg:bg-fixed">
-      <div className="overlay absolute"></div>
+      <div className="overlay bg-portfolio-fill absolute"></div>
       <div className="content">
         <Slides />
       </div>

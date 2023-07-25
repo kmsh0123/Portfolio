@@ -4,7 +4,7 @@ import "./test.css";
 const Test = () => {
   return (
     <div className="counter bg-image py-32 relative lg:bg-fixed ">
-      <div className="overlay absolute"> </div>
+      <div className="overlay bg-portfolio-fill absolute"> </div>
       <div className="content md:flex md:justify-center md:gap-14 lg:gap-40 md:items-center">
         {/* works completed */}
         <div className="flex flex-col items-center gap-3 justify-center mt-5 mb-5">
