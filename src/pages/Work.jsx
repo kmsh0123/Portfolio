@@ -5,6 +5,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import {BsPlusCircle} from "react-icons/bs";
+import portfolio_1 from "../img/portfolio_1.png";
+import portfolio_2 from "../img/portfolio_2.png";
+import portfolio_3 from "../img/portfolio_3.png";
+import { Link } from "react-router-dom";
 
 const Work = () => {
   return (
@@ -22,126 +26,69 @@ const Work = () => {
         <div className=" card ">
           <div className=" overflow-hidden">
           <img
-            src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-1.jpg"
+            src={portfolio_1}
             className=" "
             alt=""
           />
           </div>
           <div className=" px-4 pt-8 pb-6 flex justify-between items-center">
           <div className="">
-          <h1 className=" text-[1.2rem] text-[#1e1e1e] font-[500] mb-3 leading-5">Lorem impsum dolor</h1>
+          <h1 className=" text-[1.2rem] text-[#1e1e1e] font-[500] mb-3 leading-5">Contact App with Api</h1>
           <div className=" text-[0.8rem] text-[#4e4e4e] font-normal">
             <span className=" text-portfolio-base">Web Design</span> /{" "}
             <span className="">18 Sep. 2018</span>
           </div>
           </div>
           <span className="text-portfolio-base text-[2.5rem]">
+            <Link to="https://contact-app-teamk.vercel.app" target="_blank">
             <BsPlusCircle/>
+            </Link>
           </span>
           </div>
         </div>
         <div className=" card">
           <div className=" overflow-hidden">
           <img
-            src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-2.jpg"
+            src={portfolio_2}
             className=" "
             alt=""
           />
           </div>
           <div className=" px-4 pt-8 pb-6 flex justify-between items-center">
           <div className="">
-          <h1 className=" text-[1.2rem] text-[#1e1e1e] font-[500] mb-3 leading-5">Loreda Cuno Nere</h1>
+          <h1 className=" text-[1.2rem] text-[#1e1e1e] font-[500] mb-3 leading-5">Premium Theme with E-commerce</h1>
           <div className=" text-[0.8rem] text-[#4e4e4e] font-normal">
             <span className=" text-portfolio-base">Web Design</span> /{" "}
             <span className="">18 Sep. 2018</span>
           </div>
           </div>
           <span className="text-portfolio-base text-[2.5rem]">
+          <Link to="https://shopper-liard.vercel.app/" target="_blank">
             <BsPlusCircle/>
+            </Link>
           </span>
           </div>
         </div>
         <div className=" card">
           <div className=" overflow-hidden">
           <img
-            src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-3.jpg"
+            src={portfolio_3}
             className=""
             alt=""
           />
           </div>
           <div className=" px-4 pt-8 pb-6 flex justify-between items-center">
           <div className="">
-          <h1 className=" text-[1.2rem] text-[#1e1e1e] font-[500] mb-3 leading-5">Mavrito Lana Dere</h1>
+          <h1 className=" text-[1.2rem] text-[#1e1e1e] font-[500] mb-3 leading-5">Premium Theme Admin Dashboard</h1>
           <div className=" text-[0.8rem] text-[#4e4e4e] font-normal">
             <span className=" text-portfolio-base">Web Design</span> /{" "}
             <span className="">18 Sep. 2018</span>
           </div>
           </div>
           <span className="text-portfolio-base text-[2.5rem]">
+            <Link to="https://64af84836e26ce1831b85e49--classy-starlight-f92723.netlify.app/" target="_blank">
             <BsPlusCircle/>
-          </span>
-          </div>
-        </div>
-        <div className=" card">
-          <div className=" overflow-hidden">
-          <img
-            src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-4.jpg"
-            className=""
-            alt=""
-          />
-          </div>
-          <div className=" px-4 pt-7 pb-6 flex justify-between items-center">
-          <div className="">
-          <h1 className=" text-[1.2rem] text-[#1e1e1e] font-[500] mb-3 leading-5">Bindo Laro Cado</h1>
-          <div className=" text-[0.8rem] text-[#4e4e4e] font-normal">
-            <span className=" text-portfolio-base">Web Design</span> /{" "}
-            <span className="">18 Sep. 2018</span>
-          </div>
-          </div>
-          <span className="text-portfolio-base text-[2.5rem]">
-            <BsPlusCircle/>
-          </span>
-          </div>
-        </div>
-        <div className=" card">
-          <div className=" overflow-hidden">
-          <img
-            src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-5.jpg"
-            className=""
-            alt=""
-          />
-          </div>
-          <div className=" px-4 pt-8 pb-6 flex justify-between items-center">
-          <div className="">
-          <h1 className=" text-[1.2rem] text-[#1e1e1e] font-[500] mb-3 leading-5">Studio Lena Mado</h1>
-          <div className=" text-[0.8rem] text-[#4e4e4e] font-normal">
-            <span className=" text-portfolio-base">Web Design</span> /{" "}
-            <span className="">18 Sep. 2018</span>
-          </div>
-          </div>
-          <span className="text-portfolio-base text-[2.5rem]">
-            <BsPlusCircle/>
-          </span>
-          </div>
-        </div>
-        <div className=" card">
-          <div className=" overflow-hidden">
-          <img
-            src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/work-6.jpg"
-            className=" "
-            alt=""
-          />
-          </div>
-          <div className=" px-4 pt-8 pb-6 flex justify-between items-center">
-          <div className="">
-          <h1 className=" text-[1.2rem] text-[#1e1e1e] font-[500] mb-3 leading-5">Studio Big Bang</h1>
-          <div className=" text-[0.8rem] text-[#4e4e4e] font-normal">
-            <span className=" text-portfolio-base">Web Design</span> /{" "}
-            <span className="">18 Sep. 2018</span>
-          </div>
-          </div>
-          <span className="text-portfolio-base text-[2.5rem]">
-            <BsPlusCircle/>
+            </Link>
           </span>
           </div>
         </div>

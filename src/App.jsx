@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './App.css'
 import Services from './components/Services'
 import Navbar from './components/Navbar'
@@ -11,10 +11,17 @@ import Contact from './Pages/Contact'
 import {AiTwotoneSetting } from "react-icons/ai"
 import Testimony from './components/Testimony'
 import Footer from './Pages/Footer'
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { ColorInput } from '@mantine/core';
 
 const App = () => {
   const [toggle, setToggle] = useState(true);
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
 
   const handleClick = () => {
     setToggle((pre) => !pre);
@@ -22,7 +29,8 @@ const App = () => {
   const [themeColor, setThemeColor] = useState("theme-default");
   return (
    
-       <div className={themeColor} >
+    <div className='overflow-hidden'>
+    <div className={themeColor} >
     <Navbar/>
     <Chatbot/>
       <Hero/>
@@ -94,14 +102,35 @@ const App = () => {
         </div>
         </div>
       </div>
+      <div data-aos="flip-left"
+      data-aos-duration="1000">
       <About theme={themeColor}/>
+      </div>
+     
+      <div data-aos="zoom-in"
+      data-aos-duration="1000">
       <Services/>
+      </div>
+      <div data-aos="zoom-out"
+      data-aos-duration="1000">
      <Blog/>
+      </div>
+
      <Testimony/>
-    <Work/>
-    <Contact theme={themeColor}/>
+     <div data-aos="fade-up"
+     data-aos-duration="1000">
+     <Work/>
+      </div>
+
+    <div data-aos="fade-down"
+     data-aos-duration="1000">
+      <Contact theme={themeColor}/>
+    </div>
+  
     <Footer/>
     </div>
+    </div>
+       
   )
 }
 

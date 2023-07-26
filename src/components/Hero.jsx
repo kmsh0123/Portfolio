@@ -1,9 +1,10 @@
 import React from 'react'
 import TypingEffect from './TypingEffect'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
-    <section className=' h-app hero-bg relative'>
+      <section className=' h-app hero-bg relative' id='hero'>
         <div className=' absolute h-full w-full hero-overlay'></div>
         <div className=' flex h-screen items-center justify-center'>
            <div className=' z-10 text-center text-white'>
