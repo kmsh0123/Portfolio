@@ -11,7 +11,9 @@ const Services = () => {
 
   return (
     <section className="my-20 ">
-      <div className="mb-20">
+      <div data-aos="zoom-in"
+      data-aos-duration="1000"
+      className="mb-20">
         {/* Header */}
         <div className="mb-20">
           <div className="text-center">

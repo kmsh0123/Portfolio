@@ -73,7 +73,7 @@ body{
   background-color: #0078ff; /* Set the underline color */
   transition: width 0.3s; /* Add a transition for smooth animation of the underline width */
 }
-.background-container {
+.bg-container{
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;

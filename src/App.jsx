@@ -106,11 +106,7 @@ const App = () => {
       data-aos-duration="1000">
       <About theme={themeColor}/>
       </div>
-     
-      <div data-aos="zoom-in"
-      data-aos-duration="1000">
       <Services/>
-      </div>
       <div data-aos="zoom-out"
       data-aos-duration="1000">
      <Blog/>
@@ -122,10 +118,8 @@ const App = () => {
      <Work/>
       </div>
 
-    <div data-aos="fade-down"
-     data-aos-duration="1000">
+    
       <Contact theme={themeColor}/>
-    </div>
   
     <Footer/>
     </div>
