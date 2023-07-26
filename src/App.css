@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #ededed;
 /* styles.css */
-
+}
 /* Link styles */
 .a{
     text-decoration: none;
@@ -118,4 +123,12 @@
 
 .custom-shadow{
     box-shadow: .3px .3px 6px 1px rgb(207, 206, 206);
+}
+input:focus-visible {
+  border: 2px solid #0078FF;
+  outline: none;
+}
+textarea:focus-visible {
+  border: 2px solid #0078FF;
+  outline: none;
 }
