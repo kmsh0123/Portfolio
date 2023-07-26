@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import {MdMenu,MdClose} from "react-icons/md"
-import { Link, NavLink } from 'react-router-dom';
+import {  NavLink } from 'react-router-dom';
+import {Link} from 'react-scroll';
+// import {NavLink} from 'react-scroll';
 
 const Navbar = () => {
   const [open,setOpen] = useState(true);
@@ -27,7 +29,7 @@ const Navbar = () => {
             <ul className="text-black lg:text-white mr-0 lg:mr-14 lg:flex lg:py-0 lg:static lg:space-x-9 hidden">
             {
                   menuLinks.map(item => (
-                    <NavLink key={item.id} to={item.link} className={`lg:text-[15px] a py-3 lg:py-0 px-5 lg:px-0 font-semibold text-md duration-300 transition-all`}>
+                    <NavLink key={item.id} to={item.link} spy={true} smooth={true} offset={50} duration={500} className={`lg:text-[15px] py-3 lg:py-0 px-5 lg:px-0 font-semibold text-md a duration-300 transition-all`}>
                       {item.name}
                     </NavLink>
                   ))
