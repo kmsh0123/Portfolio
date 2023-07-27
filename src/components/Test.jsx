@@ -1,5 +1,6 @@
 import React from "react";
 import "./test.css";
+import DynamicNumber from "./DynamicNumber";
 
 const Test = () => {
   return (
@@ -14,7 +15,8 @@ const Test = () => {
             </span>
           </div>
           <div className="text-white text-center">
-            <h1 className="text-2xl">450</h1>
+            <DynamicNumber targetValue={450} />
+            {/* <h1 className="text-2xl">450</h1> */}
             {/* <p
                 data-purecounter-start="0"
                 data-purecounter-end="450"
@@ -32,7 +34,8 @@ const Test = () => {
             </span>
           </div>
           <div className="text-white text-center">
-            <h1 className="text-2xl text-center">25</h1>
+            <DynamicNumber targetValue={25} />
+            {/* <h1 className="text-2xl text-center">25</h1> */}
             {/* <p
                 data-purecounter-start="0"
                 data-purecounter-end="25"
@@ -50,7 +53,8 @@ const Test = () => {
             </span>
           </div>
           <div className="text-white text-center">
-            <h1 className="text-2xl">550</h1>
+            <DynamicNumber targetValue={550} />
+            {/* <h1 className="text-2xl">550</h1> */}
             {/* <p
                 data-purecounter-start="0"
                 data-purecounter-end="550"
@@ -68,7 +72,8 @@ const Test = () => {
             </span>
           </div>
           <div className="text-white text-center">
-            <h1 className="text-2xl">48</h1>
+            <DynamicNumber targetValue={48} />
+            {/* <h1 className="text-2xl">48</h1> */}
             {/* <p
                 data-purecounter-start="0"
                 data-purecounter-end="48"
