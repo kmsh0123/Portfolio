@@ -6,14 +6,15 @@ const Blog = ({themeColor}) => {
   return (
     <div className={themeColor} id="blog">
       <div className=" bg-[#f5f5f5]">
-        <div className=" flex flex-col justify-center items-center pt-[3rem]">
+       <div className="container mx-auto">
+       <div className=" flex flex-col justify-center items-center pt-[3rem]">
           <h2 className=" text-[3rem] mb-[0.5rem] font-bold">BLOG</h2>
           <p className=" text-center px-5 text-[#4e4e4e] mb-[1rem]">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           </p>
           <hr className=" bg-portfolio-fill w-[40px] h-[5px] border-none" />
         </div>
-        <div className=" flex flex-col md:flex-row justify-center md:gap-6 px-3 md:px-[52px] lg:px-[117px] items-center pb-[4rem] md:pb-[6rem] pt-[4rem]">
+        <div className=" flex flex-col md:flex-row justify-center md:gap-6 px-3 md:px-[52px] items-center pb-[4rem] md:pb-[6rem] pt-[4rem] lg:mx-[15px]">
           <div className=" shadow-lg shadow-gray-300 rounded-[5px] border-[1px] border-[rgba(0,0,0,0.175)] relative">
             <img
               src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/post-1.jpg"
@@ -164,6 +165,7 @@ const Blog = ({themeColor}) => {
             </div>
           </div>
         </div>
+       </div>
       </div>
     </div>
   );
