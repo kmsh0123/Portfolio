@@ -3,7 +3,7 @@ import myImage from "../img/myImage.jpg";
 
 const About = () => {
   return (
-    <div className=" flex justify-center items-center min-h-screen py-20 ">
+      <div id="about" className="flex justify-center items-center lg:mr-14 min-h-screen py-20 ">
       <div className="w-11/12 lg:w-10/12 px-5 sm:px-14 py-20 flex flex-col md:flex-row custom-shadow gap-6">
         <div className=" w-full sm:w-11/12 md:w-1/2">
           <div className=" flex flex-col items-start sm:flex-row sm:gap-5 lg:gap-10 ">

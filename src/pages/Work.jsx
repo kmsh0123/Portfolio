@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 const Work = () => {
   return (
-    <div>
+    <div id="work">
     <section className=" flex flex-col justify-center items-center mb-16 sm:p-5">
         <h1 className=" text-3xl lg:text-5xl font-bold uppercase mb-3">Portfolio</h1>
         <p className=" text-[#4e4e4e] mb-4 text-center">

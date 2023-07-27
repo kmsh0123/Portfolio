@@ -4,7 +4,7 @@ import { BsClock } from "react-icons/bs";
 
 const Blog = ({themeColor}) => {
   return (
-    <div className={themeColor}>
+    <div className={themeColor} id="blog">
       <div className=" bg-[#f5f5f5]">
         <div className=" flex flex-col justify-center items-center pt-[3rem]">
           <h2 className=" text-[3rem] mb-[0.5rem] font-bold">BLOG</h2>

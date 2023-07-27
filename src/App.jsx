@@ -33,7 +33,7 @@ const App = () => {
     <div className={themeColor} >
     <Navbar/>
     <Chatbot/>
-      <Hero/>
+      <Hero />
       <div className="">
         <button
           onClick={handleClick}
@@ -107,16 +107,19 @@ const App = () => {
       <About theme={themeColor}/>
       </div>
       <Services/>
+
+      <div data-aos="fade-up"
+     data-aos-duration="1000">
+     <Work/>
+      </div>
+     <Testimony/>
+
       <div data-aos="zoom-out"
       data-aos-duration="1000">
      <Blog/>
       </div>
 
-     <Testimony/>
-     <div data-aos="fade-up"
-     data-aos-duration="1000">
-     <Work/>
-      </div>
+     
 
     
       <Contact theme={themeColor}/>

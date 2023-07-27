@@ -13,6 +13,7 @@ body{
 .a{
     text-decoration: none;
     position: relative; /* Required for positioning pseudo-element */
+    cursor: pointer;
   }
   
   /* Underline using ::before pseudo-element */
@@ -23,7 +24,7 @@ body{
     left: 0;
     width: 0; /* Initially set the width to 0, so it's not visible */
     height: 2px;
-    background-color: #fff; /* Set the underline color */
+    background-color: var(--text-color); /* Set the underline color */
     transition: width 0.3s; /* Add a transition for smooth animation of the underline width */
   }
   
@@ -39,7 +40,7 @@ body{
     left: 0;
     width: 80%; /* Initially set the width to 0, so it's not visible */
     height: 2px;
-    background-color: #fff; /* Set the underline color */
+    background-color: var(--text-color); /* Set the underline color */
     transition: width 0.3s; /* Set the underline color */
 }
 
@@ -73,6 +74,12 @@ body{
   background-color: #0078ff; /* Set the underline color */
   transition: width 0.3s; /* Add a transition for smooth animation of the underline width */
 }
+.d{
+  color :black
+}
+.d.active{
+  color :var(--text-color)
+}
 .bg-container{
   background-size: cover;
   background-position: center center;
@@ -90,7 +97,7 @@ body{
 }
 
 .hero-bg{
-    background-image: url('./img/hero-bg.jpg');
+    background-image: url('https://t4.ftcdn.net/jpg/02/78/37/47/360_F_278374738_ypRn0utOVnebuhmpSrDiwkzFsdqEm0aa.jpg');
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
@@ -124,7 +131,7 @@ body{
 .custom-shadow{
     box-shadow: .3px .3px 6px 1px rgb(207, 206, 206);
 }
-input:focus-visible {
+.input:focus-visible {
   border: 2px solid #0078FF;
   outline: none;
 }

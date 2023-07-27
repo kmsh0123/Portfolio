@@ -10,7 +10,7 @@ const Services = () => {
   };
 
   return (
-    <section className="my-20 ">
+    <section className="my-20 " id="services">
       <div data-aos="zoom-in"
       data-aos-duration="1000"
       className="mb-20">

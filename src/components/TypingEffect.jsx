@@ -5,7 +5,7 @@ const TypingEffect = () => {
     const el = useRef();
     useEffect(()=>{
         const type = new Typed(el.current,{
-            strings : ['Developer','Freelancer','Designer'],
+            strings : ['Front-end developer','Freelancer','Designer'],
             typeSpeed: 100,
             backSpeed: 100,
             loop : true,
