@@ -4,9 +4,9 @@ import Services from './components/Services'
 import Navbar from './components/Navbar'
 import Chatbot from './Pages/Chatbot'
 import Hero from './components/Hero'
-import Work from "./Pages/Work";
+import Work from "./pages/Work";
 import About from './components/About'
-import Blog from "./Pages/Blog";
+import Blog from "./pages/Blog";
 import Contact from './Pages/Contact'
 import {AiTwotoneSetting } from "react-icons/ai"
 import Testimony from './components/Testimony'
