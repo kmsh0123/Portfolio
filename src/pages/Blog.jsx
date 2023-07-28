@@ -65,7 +65,7 @@ const Blog = ({themeColor}) => {
             </div>
           </div>
 
-          <div className=" shadow-lg shadow-gray-300 rounded-[5px] border-[1px] border-[rgba(0,0,0,0.175)] relative ">
+          <div className=" shadow-lg shadow-gray-300 rounded-[5px] border-[1px] border-[rgba(0,0,0,0.175)] relative my-5">
             <img
               src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/post-2.jpg"
               alt=""

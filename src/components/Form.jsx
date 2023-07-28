@@ -24,14 +24,14 @@ const Form = () => {
       });
   };
   return (
-    <div className='absolute top-16 w-full '>
+    <div className='static md:absolute  top-16 w-full '>
           <div className=' flex justify-between container mx-auto pt-16'>
             <div className="bg-white m-2 md:mx-[1%] lg:mx-[4.25rem] w-full flex flex-col md:flex-row justify-between">
             <form ref={form} onSubmit={sendEmail} className='pt-10 px-3 lg:p-10 w-full'>
               
-<div className=" mb-6">
-<h1 className=' text-[2rem] font-semibold '>Send Message Us</h1>
-<div className=" w-[96px] h-[3px] bg-portfolio-fill">
+              <div className=" mb-6">
+              <h1 className=' text-[2rem] font-semibold '>Send Message Us</h1>
+              <div className=" w-[96px] h-[3px] bg-portfolio-fill">
 
 </div>
 </div>

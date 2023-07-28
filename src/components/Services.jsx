@@ -27,7 +27,7 @@ const Services = () => {
           </div>
 
           {/* Service cards */}
-          <div className="md:grid md:grid-cols-3 md:grid-rows-2 px-5 lg:px-14">
+          <div className="md:grid md:grid-cols-3 md:grid-rows-2 lg:px-14">
             {/* Web design */}
             <motion.div
               initial="hidden"

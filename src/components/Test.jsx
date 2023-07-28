@@ -4,7 +4,7 @@ import DynamicNumber from "./DynamicNumber";
 
 const Test = () => {
   return (
-   <div className="container lg:mx-auto lg:px-[70px] px-[10px]">
+   <div className="container lg:mx-auto lg:px-[70px] px-2">
      <div className="counter bg-image py-24 relative lg:bg-fixed">
       <div className="overlay bg-portfolio-fill absolute"> </div>
       <div className="content md:flex md:justify-center md:gap-14 lg:gap-32 md:items-center">
