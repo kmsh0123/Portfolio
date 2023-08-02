@@ -1,6 +1,5 @@
 import React from 'react'
 import TypingEffect from './TypingEffect'
-import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
