@@ -23,13 +23,13 @@ const About = () => {
                 <div className=" my-4 flex flex-wrap items-center">
                   <span className=" text-lg font-semibold me-2">Profile: </span>
                   <span className=" text-slate-500 md:text-sm lg:text-base">
-                    Developer
+                    ReactJs Front-End Developer
                   </span>
                 </div>
                 <div className="flex flex-wrap items-center  mb-4">
                   <span className=" text-lg font-semibold me-2">Email: </span>
                   <span className=" text-slate-500 md:text-sm lg:text-base">
-                    komauk1998@gmail.com
+                    mgmauktheinkha@gmail.com
                   </span>
                 </div>
                 <div className=" flex max-w-full flex-wrap items-center">
@@ -78,21 +78,19 @@ const About = () => {
               <p className=" text-3xl font-semibold mb-5">About me</p>
               <div className=" w-[100px] h-[4px] bg-portfolio-fill"></div>
             </div>
-            <p className=" text-xl text-gray-600 tracking-wide font-light">
-              Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
-              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-              Praesent sapien massa, convallis a pellentesque nec, egestas non
-              nisi. Nulla porttitor accumsan tincidunt.
+            <p className=" text-xl text-gray-600 tracking-wide font-semibold">
+            My name is <span className="text-portfolio-base font-semibold">Mauk Thein Kha.</span>
+            I attended high school in <span className="text-portfolio-base font-semibold">2016</span>.
             </p>
-            <p className=" text-xl text-gray-600 tracking-wide font-light py-4">
-              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus
-              suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam
-              sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+            <p className=" text-xl text-gray-600 tracking-wide py-4 font-semibold">
+            From <span className="text-portfolio-base font-semibold">December 2016 to February 2020</span>,I studied <span className="text-portfolio-base font-semibold">Physic major</span> at <span className="text-portfolio-base font-semibold">Bago University</span> until <span className="text-portfolio-base font-semibold">third year</span>. I started studying developer in 2017, but I will actually enter it in 2022.
             </p>
-            <p className=" text-xl text-gray-600 tracking-wide font-light">
-              Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut
-              lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt.
-              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+            <p className=" text-xl text-gray-600 tracking-wide font-semibold">
+            <span className="text-portfolio-base font-semibold">2023 June to 2023 August</span> If I join the <span className="text-portfolio-base font-semibold">WorkShop program at MMSIT</span>,I will work with my team members on up to <span  className="text-portfolio-base font-semibold">3 projects</span>.
+            There are <span className="text-portfolio-base font-semibold">Contact App</span>,<span className="text-portfolio-base font-semibold"> Premium Theme Design</span> and <span className="text-portfolio-base font-semibold">Admin Dashboard</span>.
+            </p>
+            <p className=" text-xl text-gray-600 tracking-wide pt-4 font-semibold">
+            I am still showing my <span  className="text-portfolio-base font-semibold">capabilities</span> to companies that will work with me in the future.
             </p>
           </div>
         </div>
