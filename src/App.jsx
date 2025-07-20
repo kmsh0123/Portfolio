@@ -4,16 +4,16 @@ import Services from "./components/Services";
 import Navbar from "./components/Navbar";
 import Chatbot from "./pages/Chatbot";
 import Hero from "./components/Hero";
-import Work from "./pages/Work";
 import About from "./components/About";
 import Blog from "./pages/Blog";
-import Contact from "./pages/Contact";
 import { AiTwotoneSetting } from "react-icons/ai";
 import Testimony from "./components/Testimony";
 import Footer from "./pages/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { ColorInput } from "@mantine/core";
+import Contact from "./pages/Contact";
+import Work from "./pages/Work";
 
 const App = () => {
   const [toggle, setToggle] = useState(true);
