@@ -58,12 +58,14 @@ const Work = () => {
             <img src={alpha_ui} className=" " alt="" />
           </div>
           <div className=" px-4 pt-8 pb-6 flex justify-between items-center">
-           <div className="">
+            <div className="">
               <h1 className=" text-2xl text-[#1e1e1e] font-[500] mb-3 leading-5">
                 Alpha Admin Dashboard(Next.Js)
               </h1>
               <div className=" text-[0.8rem] text-[#4e4e4e] font-normal">
-                <span className="text-portfolio-base text-xl">CRUD Operation</span>
+                <span className="text-portfolio-base text-xl">
+                  CRUD Operation
+                </span>
               </div>
             </div>
             <span className="text-portfolio-base text-[2.5rem]">
@@ -88,10 +90,7 @@ const Work = () => {
               </div>
             </div>
             <span className="text-portfolio-base text-[2.5rem]">
-              <Link
-                to="https://sweet-dusk-515e59.netlify.app/"
-                target="_blank"
-              >
+              <Link to="https://sweet-dusk-515e59.netlify.app/" target="_blank">
                 <BsPlusCircle />
               </Link>
             </span>
@@ -107,15 +106,14 @@ const Work = () => {
                 CBLife Admin Dashboard
               </h1>
               <div className=" text-[0.8rem] text-[#4e4e4e] font-normal">
-                <span className=" text-portfolio-base text-xl">CRUD Operation</span>
+                <span className=" text-portfolio-base text-xl">
+                  CRUD Operation
+                </span>
                 {/* <span className="">18 Sep. 2018</span> */}
               </div>
             </div>
             <span className="text-portfolio-base text-[2.5rem]">
-              <Link
-                to="https://admin.cblife.axra.app/"
-                target="_blank"
-              >
+              <Link to="https://admin.cblife.axra.app/" target="_blank">
                 <BsPlusCircle />
               </Link>
             </span>
@@ -131,7 +129,9 @@ const Work = () => {
                 Premium Theme Admin Dashboard
               </h1>
               <div className=" text-[0.8rem] text-[#4e4e4e] font-normal">
-                <span className=" text-portfolio-base text-xl">Dashboard UI</span>
+                <span className=" text-portfolio-base text-xl">
+                  Dashboard UI
+                </span>
                 {/* <span className="">18 Sep. 2018</span> */}
               </div>
             </div>
@@ -160,10 +160,7 @@ const Work = () => {
               </div>
             </div>
             <span className="text-portfolio-base text-[2.5rem]">
-              <Link
-                to="https://shopper-liard.vercel.app/"
-                target="_blank"
-              >
+              <Link to="https://shopper-liard.vercel.app/" target="_blank">
                 <BsPlusCircle />
               </Link>
             </span>
@@ -208,10 +205,7 @@ const Work = () => {
               </div>
             </div>
             <span className="text-portfolio-base text-[2.5rem]">
-              <Link
-                to="https://borntobeconsultant.com/"
-                target="_blank"
-              >
+              <Link to="https://borntobeconsultant.com/" target="_blank">
                 <BsPlusCircle />
               </Link>
             </span>
@@ -232,10 +226,7 @@ const Work = () => {
               </div>
             </div>
             <span className="text-portfolio-base text-[2.5rem]">
-              <Link
-                to="https://speakeasyspain.netlify.app/"
-                target="_blank"
-              >
+              <Link to="https://speakeasyspain.netlify.app/" target="_blank">
                 <BsPlusCircle />
               </Link>
             </span>
@@ -248,7 +239,7 @@ const Work = () => {
           <div className=" px-4 pt-8 pb-6 flex justify-between items-center">
             <div className="">
               <h1 className=" text-2xl text-[#1e1e1e] font-[500] mb-3 leading-5">
-               Easy Bank UI
+                Easy Bank UI
               </h1>
               <div className=" text-[0.8rem] text-[#4e4e4e] font-normal">
                 <span className=" text-portfolio-base text-xl">Web UI</span>
@@ -304,10 +295,7 @@ const Work = () => {
               </div>
             </div>
             <span className="text-portfolio-base text-[2.5rem]">
-              <Link
-                to="https://sage-blini-ce2002.netlify.app/"
-                target="_blank"
-              >
+              <Link to="https://sage-blini-ce2002.netlify.app/" target="_blank">
                 <BsPlusCircle />
               </Link>
             </span>
