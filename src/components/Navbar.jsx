@@ -9,9 +9,9 @@ const Navbar = () => {
   const menuLinks = [
     {id:1,name : "HOME",link : "home"},
     {id:2,name : "ABOUT",link : "about"},
-    {id:3,name : "SERVICES",link : "services"},
+    // {id:3,name : "SERVICES",link : "services"},
     {id:4,name : "WORK",link : "work"},
-    {id:5,name : "BLOG",link : "blog"},
+    // {id:5,name : "BLOG",link : "blog"},
     {id:6,name : "CONTACT",link : "contact"},
   ]
   return (
